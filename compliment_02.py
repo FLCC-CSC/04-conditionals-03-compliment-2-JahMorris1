@@ -1,8 +1,8 @@
 # FILE NAME - compliment_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Jahni Morris
+# DATE: February 22, 2026
+# BRIEF DESCRIPTION: Building off of compliment_01.py
 
 
 
@@ -15,7 +15,17 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+def main():
+    answer = input("Would you like a compliment? ")
 
+    if answer == "yes":
+        print("You have wonderful eyes.")
+    else:
+        print("No compliment for you!")
+
+    print("Thank you for playing.")    
+
+main()
 
 
 
@@ -70,7 +80,7 @@ Thank you for playing.
 '''
 
 1. Did you struggle with this lab (YES/NO)?
-
+ No this was like the last lab just literally customizing "No compliment for you!"
 
 
 
